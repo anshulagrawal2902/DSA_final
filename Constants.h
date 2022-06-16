@@ -1,0 +1,2 @@
+int MAX_DEPTH = 8;
+int MAX_PIXELS = 17000000;
