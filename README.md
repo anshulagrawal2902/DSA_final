@@ -13,14 +13,3 @@ This project aims to implement an octree data structure in the C language to red
 2. **Color Analysis:** It analyzes the color distribution in the image and constructs an octree data structure to represent this distribution.
 3. **Compression:** By traversing the octree, the program identifies clusters of similar color pixels and replaces them with a single representative color.
 4. **Output:** The compressed image is generated, with a reduced number of distinct color pixels, resulting in a smaller file size.
-
-## Usage
-1. Compile the program using a C compiler such as GCC.
-2. Run the compiled executable, providing the input image file as an argument.
-3. Optionally, adjust compression settings or specify output file parameters.
-4. View the compressed image output.
-
-Example:
-```bash
-$ gcc octree_image_compression.c -o octree_image_compression
-$ ./octree_image_compression input_image.jpg
